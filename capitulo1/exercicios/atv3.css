@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+header, footer{
+    width: 100%;
+    background: #666;
+    padding: 10px;
+    margin: 0;
+    color: white;
+}
+
+h1{
+    margin: 0;
+}
+
+nav{
+    width: 10%;
+}
+
+#principal{
+    width: 90%;
+    border-left: 2px solid black;
+    padding: 20px 0px 20px 10px;
+    box-sizing: border-box;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;  
+}
+
+nav li{
+    background: #ccc;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+    background: #aaa;
+}
